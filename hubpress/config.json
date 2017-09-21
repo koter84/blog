@@ -25,8 +25,8 @@
     ]
   },
   "site": {
-    "title": "My Blog",
-    "description": "",
+    "title": "My Blog Title",
+    "description": "My Blog Description",
     "logo": "",
     "cover": "",
     "delay": "",
