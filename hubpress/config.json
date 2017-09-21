@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "ichi"
+    "name": "roon"
   },
   "urls": {
     "site": "https://koter84.github.io/blog",
     "hubpress": "https://koter84.github.io/blog",
-    "theme": "//koter84.github.io/blog/themes/ghostium",
+    "theme": "//koter84.github.io/blog/themes/ichi",
     "images": "https://koter84.github.io/blog/images"
   },
   "initialisationConfigComponent": {
