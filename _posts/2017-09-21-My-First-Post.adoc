@@ -1,0 +1,12 @@
+= My First Post
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+:hp-image: /covers/cover.png
+:published_at: 2017-09-21
+:hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+this is my first blog post on hubpress
+
+= very nice
+---
+
+just have to learn a bit of markdown still
