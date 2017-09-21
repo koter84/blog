@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "saga"
+    "name": "the-shell"
   },
   "urls": {
     "site": "https://koter84.github.io/blog",
     "hubpress": "https://koter84.github.io/blog",
-    "theme": "//koter84.github.io/blog/themes/roon",
+    "theme": "//koter84.github.io/blog/themes/saga",
     "images": "https://koter84.github.io/blog/images"
   },
   "initialisationConfigComponent": {
