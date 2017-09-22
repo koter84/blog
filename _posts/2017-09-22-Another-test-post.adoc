@@ -1,0 +1,10 @@
+= Another test post
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+:hp-image: /blog/images/cover_small.png
+:published_at: 2017-09-22
+:hp-tags: Test,
+// :hp-alt-title: My English Title
+
+i just added this post to have more than one post in the blog, and to test the updating.
+
+i should probably add some extra stuff to these posts to make it a better demo/test environment.
