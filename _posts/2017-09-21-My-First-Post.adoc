@@ -1,6 +1,6 @@
 = My First Post
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
-//:hp-image: /images/cover_small.jpg
+:hp-image: /blog/images/cover_small.jpg
 :published_at: 2017-09-21
 :hp-tags: HubPress, Blog, Open_Source,
 // :hp-alt-title: My English Title
