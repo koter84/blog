@@ -1,0 +1,10 @@
+= Yet another post
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+:hp-image: /cover_small.jpg
+:published_at: 2017-09-22
+:hp-tags: Test,
+// :hp-alt-title: My English Title
+
+just adding some more content for the homepage to fill up a bit
+
+i could just load up some lorem ipsum, but i'm to lazy to google for it..
