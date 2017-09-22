@@ -1,0 +1,10 @@
+= Post Number Three
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+:hp-image: /cover_small.jpg
+:published_at: 2017-09-22
+:hp-tags: Test,
+// :hp-alt-title: My English Title
+
+theming seems to be harder than expected, at the moment i'm not sure how it's decided when the post.hbs is used and when page.hbs
+
+this should be fairly simple, but i can't seem to firure it out...
