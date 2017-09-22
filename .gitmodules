@@ -1,0 +1,3 @@
+[submodule "themes/beautiful-ghost"]
+	path = themes/beautiful-ghost
+	url = https://github.com/koter84/beautiful-ghost.git
