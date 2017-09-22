@@ -6,7 +6,7 @@
     "cname": ""
   },
   "theme": {
-    "name": "uno"
+    "name": "casper"
   },
   "urls": {
     "site": "https://koter84.github.io/blog",
@@ -27,8 +27,8 @@
   "site": {
     "title": "My Blog Title",
     "description": "My Blog Description",
-    "logo": "",
-    "cover": "",
+    "logo": "images/logo.png",
+    "cover": "images/cover_small.jpg",
     "delay": "",
     "postsPerPage": "",
     "googleAnalytics": "",
