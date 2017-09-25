@@ -1,3 +1,9 @@
 [submodule "themes/beautiful-ghost"]
 	path = themes/beautiful-ghost
 	url = https://github.com/koter84/beautiful-ghost.git
+[submodule "themes/readium3"]
+	path = themes/readium3
+	url = https://github.com/starburst1977/readium.git
+[submodule "themes/readium2"]
+	path = themes/readium2
+	url = https://github.com/saulgray/readium.git
