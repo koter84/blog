@@ -2,38 +2,40 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Another test post</title>
     <meta name="description" content="" />
 
     <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://koter84.github.io/blog/favicon.ico">
-    
     <meta name="MobileOptimized" content="320" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Another test post">
     <meta name="twitter:description" content="">
-    <meta name="twitter:site" content="http://www.svenread.com"> <!-- Change this to your URL -->
-    <meta name="twitter:creator" content="@starburst1977"> <!-- Change this to your Twitter Handel -->
+    <meta name="twitter:site" content="https://nem.ghost.io/"> <!-- Change this to your URL -->
+<meta name="twitter:creator" content="@nemofficial"> <!-- Change this to your Twitter Handel -->
     <meta name="google-site-verification" content="">
     <meta property="fb:admins" content="">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Another test post">
     <meta property="og:description" content="">
 
-    <link rel="stylesheet" type="text/css" href="//koter84.github.io/blog/themes/readium2/assets/css/index.css?v=1506338757651" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="//koter84.github.io/blog/themes/readium2/assets/css/normalize.css?v=1506338757651" />
-    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Source+Serif+Pro:400,400i,700,700i/Source+Sans+Pro:200,400,700">
-    
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <link rel="stylesheet" href="//koter84.github.io/blog/themes/readium2/assets/js/highlight/styles/obsidian.css?v=1506338757651">
+    <link href="/Favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="//koter84.github.io/blog/themes/readium3/assets/js/styles/obsidian.css?v=1506338983494">
+    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Roboto:400,400i,700,700i">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" media="screen" href="//koter84.github.io/blog/themes/readium3/assets/css/main.css?v=1506338983494" />
+    <link rel="stylesheet" type="text/css" media="print" href="//koter84.github.io/blog/themes/readium3/assets/css/print.css?v=1506338983494" />
+    <link rel="stylesheet" type="text/css" href="//cdn.muut.com/latest/moot.css">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <link rel="canonical" href="https://koter84.github.io/blog/2017/09/22/Another-test-post.html" />
     <meta name="referrer" content="origin" />
     
@@ -79,52 +81,74 @@
     
         <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 </head>
-<body class="post-template tag-Test nav-closed">
+<body class="post-template tag-Test">
+    <div class="warning alert" id ="headerIE"></div>
+<div class="container nav-container">
+<div class="row">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://nem.io/"><img class="inject-me" src="//koter84.github.io/blog/themes/readium3/assets/img/nemlogo.svg?v=1506338983494"/></a>
+    </div>
 
-    <nav class="nav">
-        
-        <!-- Get in Touch -->
-        <a href="/rss/" class="contact">
-            <i class="fa fa-rss"></i>
-        </a>
-        <!-- Navigation -->
-        <a href="#navigation-bottom" class="menu">
-            <i class="fa fa-bars"></i>
-        </a>
-        <!-- Blog Logo -->
-            <a class="blog-logo" href="/">
-                <span style="background-image: url(/images/logo.png)" >My Blog Title</span>
-            </a>
-        
-        <!--<a class="subscribe-button icon-feed" href="https://koter84.github.io/blog/rss/">Subscribe</a>-->
-    </nav>
-
-    <div class="site-wrapper">
-
-        
-
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://nem.io/install.html"><span>CLIENT</span></a></li>
+        <li><a href="http://nem.io/#buyheader"><span>BUY XEM</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span>SUPPORT <span class="caret"></span></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://nem.io/faq.html">FAQ's</a></li>
+            <li><a href="http://blog.nem.io/nem-tutorial-list/">TUTORIALS</a></li>
+            <li><a href="http://wiki.nem.io/index.php/Main_Page">WIKI</a></li>
+          </ul>
+        </li>
+        <li><a href="http://nemflash.io/"><span>UPDATES</span></a></li>
+        <li><a href="http://blog.nem.io/"><span>BLOG</span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+</div>
+    <!-- <a href="https://koter84.github.io/blog" class="logo-readium"><span class="logo" style="background-image: url(/images/logo.png)"></span></a> -->
+    
 
 <main class="content" role="main">
+
     <article class="post tag-Test">
-        <div class="wrapper-background">
-        
-            <header class="highlight-header post-head" style="background-image: url(cover_small.jpg)">
-                <header class="post-header">
-                    <h1 class="post-title">Another test post</h1>
-                    <section class="post-meta">
-                        <time class="post-date" datetime="2017-09-22">22 September 2017</time>  on <a href="https://koter84.github.io/blog/tag/Test/">Test</a>
-                    </section>
-                </header>
-            </header>
-            <br>
-        
-            
+
+
+
+        <div class="noarticleimage">
+            <div class="post-meta">
+                <h1 class="post-title">Another test post</h1>
+                <div class="cf post-meta-text">
+                    <div class="author-image" style="background-image: url(https://avatars3.githubusercontent.com/u/1236241?v&#x3D;4)">Blog Logo</div>
+                    <!--<h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="https://koter84.github.io/blog/author/koter84/">Dennis Koot</a></h4> on-->
+                    <time datetime="2017-09-22">22 Sep 2017</time>, tagged on <span class="post-tag-Test"><a href="/tag/Test">Test</a></span>
+                </div>
+            </div>
         </div>
-        <div class="wrapper-content">
-            
-            
-            
+        <br>
+        <br>
+        <br>
+
+
+
             <section class="post-content">
+                <div class="post-reading">
+                    <span class="post-reading-time"></span> read
+                </div>
+                <a name="topofpage"></a>
                 <div class="paragraph">
 <p>i just added this post to have more than one post in the blog, and to test the updating.</p>
 </div>
@@ -132,54 +156,89 @@
 <p>i should probably add some extra stuff to these posts to make it a better demo/test environment.</p>
 </div>
             </section>
-            
-            <h2 class="article-spacer"><span>&#10020;</span></h2>
-            
             <footer class="post-footer">
-            
-            
-                <figure class="author-image">
-                    <a class="img" href="https://koter84.github.io/blog/author/koter84/" style="background-image: url(https://avatars3.githubusercontent.com/u/1236241?v&#x3D;4)"><span class="hidden">Dennis Koot's Picture</span></a>
-                </figure>
-            
-                <section class="author">
-                    <h4 itemprop="author" itemscope itemtype="http://schema.org/Person">Dennis Koot</h4>
-            
-                        <p>Read <a href="https://koter84.github.io/blog/author/koter84/">more posts</a> by this author.</p>
-                    <div class="author-meta">
-                        <span class="author-location icon-location">Amsterdam, The Netherlands</span>&nbsp;&nbsp;·&nbsp;&nbsp;
-                        <span class="author-link icon-link"><a href="http://www.koot.nl">http://www.koot.nl</a></span>
-                    </div>
+                <section class="share">
+                    <a class="icon-twitter" href="http://twitter.com/share?text=Another%20test%20post&url=https://koter84.github.io/blog/2017/09/22/Another-test-post.html"
+                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <span class="hidden">Twitter</span>
+                    </a>
+                    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://koter84.github.io/blog/2017/09/22/Another-test-post.html"
+                        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                        <span class="hidden">Facebook</span>
+                    </a>
+                    <a class="icon-google-plus" href="https://plus.google.com/share?url=https://koter84.github.io/blog/2017/09/22/Another-test-post.html"
+                       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                        <span class="hidden">Google+</span>
+                    </a>
                 </section>
-            
-            
             </footer>
-            
-            <h2 class="article-spacer"><span>&#10020;</span></h2>
-            
-        </div>
-        
+
+            <div class="bottom-teaser cf">
+                <div class="isLeft">
+                    <h5 class="index-headline featured"><span>Written by</span></h5>
+                    <section class="author">
+                        <div class="author-image" style="background-image: url(https://avatars3.githubusercontent.com/u/1236241?v&#x3D;4)">Blog Logo</div>
+                        <h4>A Nember</h4>
+                        <p class="bio"></p>
+                        <hr>
+                        <p class="published">Published <time datetime="2017-09-22">22 Sep 2017</time></p>
+                    </section>
+                </div>
+                <div class="isRight">
+                    <h5 class="index-headline featured"><span></span></h5>
+                    <br>
+                    <footer class="site-footer">
+                        <a class="subscribe icon-feed" href="https://koter84.github.io/blog/rss/"><span class="tooltip"> Subscribe!</span></a>
+                        <div class="inner">
+                             <section class="copyright">All content copyright <a href="https://koter84.github.io/blog/">My Blog Title</a> &copy; 2017</section>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <!--
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'ournem'; // required: replace example with your forum shortname
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-
+-->
+            <div id='discourse-comments'></div>
+
+            <script type="text/javascript">
+              DiscourseEmbed = { discourseUrl: 'https://forum.nem.io/',
+                                 discourseEmbedUrl: 'http://blog.nem.io/2017/09/22/Another-test-post.html' };
+
+              (function() {
+                var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+              })();
+            </script>
+
 
     </article>
+
 </main>
 
-<aside class="read-next">
-        <div class="read-next-story nocontent">
-            <h4>Next Story</h4>
-            <h5>You are already looking at the most recent article. Perhaps check out a previous one?</h5>
-        </div>
-        <div class="read-next-story prev nocontent">
-            <h4>Previous Story</h4>
-            <h5>You are already looking at the most previous article. Perhaps check out a newer one?</h5>
-        </div>
-</aside>
-
-
-
+<div class="bottom-closer">
+    <div class="background-closer-image" style="background-image: url(/blog/images/cover_small.jpg)">
+        Image
     </div>
-    
-    
-    
+    <div class="inner">
+        <h1 class="blog-title">My Blog Title</h1>
+        <h2 class="blog-description">My Blog Description</h2>
+        <a href="/" class="btn">Back to Overview</a>
+    </div>
+</div>
+
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
       <script type="text/javascript">
         jQuery( document ).ready(function() {
@@ -193,22 +252,54 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    
-        <script src="//koter84.github.io/blog/themes/readium2/assets/js/highlight/highlight.pack.js?v=1506338757651"></script>
-        <script type="text/javascript" src="//koter84.github.io/blog/themes/readium2/assets/js/jquery.fitvids.js?v=1506338757651"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-    
-    <script type="text/javascript" src="//koter84.github.io/blog/themes/readium2/assets/js/index.js?v=1506338757651"></script>
-    
+    <script type="text/javascript" src="//koter84.github.io/blog/themes/readium3/assets/js/jquery.fitvids.js?v=1506338983494"></script>
+    <script type="text/javascript" src="//koter84.github.io/blog/themes/readium3/assets/js/index.js?v=1506338983494"></script>
+    <script src="//koter84.github.io/blog/themes/readium3/assets/js/readingTime.min.js?v=1506338983494"></script>
+    <script src="//koter84.github.io/blog/themes/readium3/assets/js/highlight.pack.js?v=1506338983494"></script>
+    <script type="text/javascript" src="//koter84.github.io/blog/themes/readium3/assets/js/svg-injector.js?v=1506338983494"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <script>
+     // Elements to inject
+     var mySVGsToInject = document.querySelectorAll('img.inject-me');
+
+     // Do the injection
+     SVGInjector(mySVGsToInject);
+   </script>
+    <script>
+                function GetIEVersion() {
+	var sAgent = window.navigator.userAgent;
+	var Idx = sAgent.indexOf("MSIE");
+	// If IE, return version number.
+		if (Idx > 0)
+			return parseInt(sAgent.substring(Idx+ 5, sAgent.indexOf(".", Idx)));
+		// If IE 11 then look for Updated user agent string.
+		else if (!!navigator.userAgent.match(/Trident\/7\./))
+			return 11;
+		else
+			return 0; //It is not IE
+		}
+		if (GetIEVersion() > 0)
+		var txt="It looks like you are using Internet Explorer, for the best experience, you should view this site in ";
+		var or=" or ";
+		var firefox="<a href=\"https://www.mozilla.org/en-US/firefox/new/\">Firefox</a>";
+		var chrome="<a href=\"http://www.google.com/chrome/\">Chrome</a>";
+		var cancel = "<i class=\"icon-cancel-circled\" onclick=\"parentNode.remove()\"></i>";
+		document.getElementById("headerIE").innerHTML=txt+chrome+or+firefox+cancel;
+		if (GetIEVersion() == 0)
+		var elem = document.getElementById("headerIE");
+		elem.parentNode.removeChild(elem);
+    </script>
+    <script>
+
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
-      ga('create', 'UA-47305801-1', 'svenread.com');
+
+      ga('create', 'UA-60356672-2', 'nem.ghost.io');
       ga('send', 'pageview');
-    
+
     </script>
 
 </body>
