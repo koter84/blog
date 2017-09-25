@@ -11,7 +11,7 @@
   "urls": {
     "site": "https://koter84.github.io/blog",
     "hubpress": "https://koter84.github.io/blog",
-    "theme": "//koter84.github.io/blog/themes/casper",
+    "theme": "//koter84.github.io/blog/themes/mediator",
     "images": "https://koter84.github.io/blog/images"
   },
   "initialisationConfigComponent": {
