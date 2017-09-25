@@ -1,10 +1,10 @@
 {
-  "files": {
-    "default": "default.hbs",
-    "index": "index.hbs",
-	"loop": "partials/loop.hbs",
-	"navigation": "partials/navigation.hbs",
-	"pagination": "partials/pagination.hbs",
-  },
-  "version":"1.0.0"
+	"files": {
+		"default": "default.hbs",
+		"index": "index.hbs",
+		"loop": "partials/loop.hbs",
+		"navigation": "partials/navigation.hbs",
+		"pagination": "partials/pagination.hbs"
+	},
+	"version":"1.0.0"
 }
