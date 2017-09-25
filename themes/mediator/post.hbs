@@ -1,0 +1,92 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! Everything inside the #post tags pulls data from the post }}
+{{#post}}
+
+<main class="content" role="main">
+  <article class="post">
+        
+    <div class="noarticleimage">
+      <div class="post-meta">
+        <h1 class="post-title">{{title}}</h1>
+        <div class="cf post-meta-text">
+          <div class="author-image" style="background-image: url({{author.image}})">{{author.name}}'s Picture</div>
+          <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
+          on
+          <time datetime="{{date format='YYYY-MM-DD'}}">{{date format='DD MMMM YYYY'}}</time>
+          <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+        </div>
+      </div>
+    </div>
+        
+    <section class="post-content">
+      <div class="post-reading">
+        <span class="post-reading-time"></span> read
+      </div>
+      <a name="topofpage"></a>
+      {{content}}
+    </section>
+
+    <footer class="post-footer">
+      <section class="share">
+      </section>
+    </footer>
+
+    <div class="bottom-teaser cf">
+      <div class="isLeft">
+        <h5 class="index-headline featured"><span>Written by</span></h5>
+        <section class="author">
+          <div class="author-image" style="background-image: url({{author.image}})">{{author.name}}'s Picture</div>
+          <h4>{{author.name}}</h4>
+          <p class="bio"></p>
+          <hr>
+          <p class="published">Published <time datetime="{{date format='YYYY-MM-DD'}}">{{date format='DD MMMM YYYY'}}</time></p>
+        </section>
+      </div>
+    </div>
+
+    {{#if @blog.disqus}}
+    <section class="post-comments">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+      var disqus_shortname = '{{@blog.disqus}}'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </section>
+    {{/if}}
+
+  </article>
+</main>
+
+
+
+<aside class="read-next">
+    {{#next_post}}
+    <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+        <section class="post">
+            <h2>{{title}}</h2>
+            <p>{{excerpt words="19"}}&hellip;</p>
+        </section>
+    </a>
+    {{/next_post}}
+    {{#prev_post}}
+    <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+        <section class="post">
+            <h2>{{title}}</h2>
+            <p>{{excerpt words="19"}}&hellip;</p>
+        </section>
+    </a>
+    {{/prev_post}}
+</aside>
+
+{{/post}}
