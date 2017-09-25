@@ -4,7 +4,8 @@
 		"index": "index.hbs",
 		"loop": "partials/loop.hbs",
 		"navigation": "partials/navigation.hbs",
-		"pagination": "partials/pagination.hbs"
+		"pagination": "partials/pagination.hbs",
+		"post": "post.hbs"
 	},
 	"version":"1.0.0"
 }
