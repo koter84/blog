@@ -25,7 +25,7 @@
     ]
   },
   "site": {
-    "title": "My Title",
+    "title": "Blog",
     "description": "My Description",
     "logo": "/images/logo.png",
     "cover": "/blog/images/cover_small.jpg",
