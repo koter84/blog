@@ -6,12 +6,12 @@
     "cname": ""
   },
   "theme": {
-    "name": "readium3"
+    "name": "readium2"
   },
   "urls": {
     "site": "https://koter84.github.io/blog",
     "hubpress": "https://koter84.github.io/blog",
-    "theme": "//koter84.github.io/blog/themes/readium3",
+    "theme": "//koter84.github.io/blog/themes/readium2",
     "images": "https://koter84.github.io/blog/images"
   },
   "initialisationConfigComponent": {
