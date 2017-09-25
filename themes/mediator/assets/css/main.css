@@ -164,7 +164,18 @@ main{display:block}
 #nav-menu{color:#999;display:none}
 nav ul{margin:0;padding:0}
 nav li{float:left;list-style:none}
-body{font-family:Open Sans,MundoSans,"Helvetica Neue",Arial,Helvetica,sans-serif;margin:0;padding:0;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-font-feature-settings:"liga=1, dlig=1";-ms-font-feature-settings:"liga","dlig";-webkit-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";font-feature-settings:"liga","dlig"}
+body{
+	font-family:Open Sans,MundoSans,"Helvetica Neue",Arial,Helvetica,sans-serif;
+	margin:0;
+	padding:0;
+	text-rendering:optimizeLegibility;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-feature-settings:"liga=1";
+	-ms-font-feature-settings:"liga";
+	-webkit-font-feature-settings:"liga";
+	-o-font-feature-settings:"liga";
+	font-feature-settings:"liga";
+}
 .teaserimage{height:200px;width:100%;position:relative;overflow:hidden;background-color:#000}
 .teaserimage .teaserimage-image{background-size:cover;background-position:center;position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;text-indent:-9999px}
 .blog-header{height:70px;width:100%;margin:0 auto;position:relative;padding:0;border-bottom:1px solid #000;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
