@@ -1,13 +1,13 @@
 <nav role="pagination" class="pagination">
 	{{#if next}}
-		<a href="{{pageUrl next}}" class="post-list-pagination-item post-list-pagination-item-next" data-pjax>
-			<i class="fa fa-angle-double-left"></i>&nbsp;Older
-		</a>
+	<a href="{{pageUrl next}}" class="post-list-pagination-item post-list-pagination-item-next" data-pjax>
+		<i class="fa fa-angle-double-left"></i>&nbsp;Older
+	</a>
 	{{/if}}
 	<span class="post-list-pagination-item post-list-pagination-item-current">Page {{page}} of {{pages}}</span>
 	{{#if prev}}
-		<a href="{{pageUrl prev}}" class="post-list-pagination-item post-list-pagination-item-prev" data-pjax>
-			Newer&nbsp;<i class="fa fa-angle-double-right"></i>
-		</a>
+	<a href="{{pageUrl prev}}" class="post-list-pagination-item post-list-pagination-item-prev" data-pjax>
+		Newer&nbsp;<i class="fa fa-angle-double-right"></i>
+	</a>
 	{{/if}}
 </nav>
