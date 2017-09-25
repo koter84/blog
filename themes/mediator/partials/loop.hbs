@@ -1,15 +1,25 @@
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+{{! Previous/next page links - only displayed on page 2+ }}
+<div class="extra-pagination inner">
+    {{pagination}}
+</div>
+
+{{! This is the post loop - each post will be output using this markup }}
+{{#foreach posts}}
+        <article class="{{post_class}}" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="/2015/04/20/todo.html" itemprop="url">ToDo</a></h2>
+              <h2 class="post-title" itemprop="name"><a href="{{url}}" itemprop="url">{{{title}}}</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
               <p><a href="/2015/04/20/todo.html" itemprop="url">CodeSnippets (style native?) BASH #!/bin/bash echo "hello" PHP &lt;?php echo "hello"; if($foo == $bar) { die("goodbye world"); } SQL SELECT C.CategoryName, SUM( (OD.UnitPrice * OD.Quantity) * ( 1.0 - OD.Discount ))[Para] FROM Orders O JOIN [Order Details] OD ON O.OrderID = OD.OrderID JOIN Products P ON P.ProductID = OD.ProductID JOIN...</a></p>
             </section>
             <div class="post-meta">
-              <time datetime="20 April 2015">20 April 2015</time>
+              <time datetime="{{date format='YYYY-MM-DD'}}">{{date format='DD MMMM YYYY'}}</time>
 <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
             </div>
           </div>
         </article>
-      
+{{/foreach}}
+
+{{! Previous/next page links - displayed on every page }}
+{{pagination}}
