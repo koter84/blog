@@ -11,7 +11,7 @@
   "urls": {
     "site": "https://koter84.github.io/blog",
     "hubpress": "https://koter84.github.io/blog",
-    "theme": "//koter84.github.io/blog/themes/beautiful-ghost",
+    "theme": "//koter84.github.io/blog/themes/readium2",
     "images": "https://koter84.github.io/blog/images"
   },
   "initialisationConfigComponent": {
