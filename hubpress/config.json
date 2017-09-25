@@ -30,7 +30,7 @@
     "logo": "/images/logo.png",
     "cover": "/blog/images/cover_small.jpg",
     "delay": "",
-    "postsPerPage": "",
+    "postsPerPage": "3",
     "googleAnalytics": "",
     "disqus": "koter84"
   },
