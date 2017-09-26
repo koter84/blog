@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[My Description]]></description><link>https://koter84.github.io/blog</link><image><url>/blog/images/cover_small.jpg</url><title>Blog</title><link>https://koter84.github.io/blog</link></image><generator>RSS for Node</generator><lastBuildDate>Tue, 26 Sep 2017 07:53:34 GMT</lastBuildDate><atom:link href="https://koter84.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Number 5]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[My Description]]></description><link>https://koter84.github.io/blog</link><image><url>/blog/images/cover_small.jpg</url><title>Blog</title><link>https://koter84.github.io/blog</link></image><generator>RSS for Node</generator><lastBuildDate>Tue, 26 Sep 2017 07:56:44 GMT</lastBuildDate><atom:link href="https://koter84.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Number 5]]></title><description><![CDATA[<div class="paragraph">
 <p>and this is number five, this time with some added lorem ipsum&#8230;&#8203;</p>
 </div>
 <div class="paragraph">
@@ -45,8 +45,6 @@
 </div>
 <div class="paragraph">
 <p>i should probably add some extra stuff to these posts to make it a better demo/test environment.</p>
-</div>]]></description><link>https://koter84.github.io/blog/2017/09/22/Another-test-post.html</link><guid isPermaLink="true">https://koter84.github.io/blog/2017/09/22/Another-test-post.html</guid><category><![CDATA[Test]]></category><dc:creator><![CDATA[Dennis Koot]]></dc:creator><pubDate>Fri, 22 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[My First Post]]></title><description><![CDATA[<h1 id="_very_nice" class="sect0">very nice</h1>
-<hr>
-<div class="paragraph">
-<p>just have to learn a bit of markdown still</p>
+</div>]]></description><link>https://koter84.github.io/blog/2017/09/22/Another-test-post.html</link><guid isPermaLink="true">https://koter84.github.io/blog/2017/09/22/Another-test-post.html</guid><category><![CDATA[Test]]></category><dc:creator><![CDATA[Dennis Koot]]></dc:creator><pubDate>Fri, 22 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[My First Post]]></title><description><![CDATA[<div class="paragraph">
+<p>i&#8217;ve used markdown for github in comments and readme&#8217;s but never in a blog-system, it should probably work out OK, but i should definetly read up on some basic styling.</p>
 </div>]]></description><link>https://koter84.github.io/blog/2017/09/21/My-First-Post.html</link><guid isPermaLink="true">https://koter84.github.io/blog/2017/09/21/My-First-Post.html</guid><category><![CDATA[Test]]></category><dc:creator><![CDATA[Dennis Koot]]></dc:creator><pubDate>Thu, 21 Sep 2017 00:00:00 GMT</pubDate></item></channel></rss>
