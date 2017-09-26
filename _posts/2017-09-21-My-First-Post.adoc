@@ -4,9 +4,6 @@
 :published_at: 2017-09-21
 :hp-tags: Test,
 // :hp-alt-title: My English Title
-this is my first blog post on hubpress
+as this is my first post i'm still learning the markdown syntax...
 
-= very nice
----
-
-just have to learn a bit of markdown still
+i've used markdown for github in comments and readme's but never in a blog-system, it should probably work out OK, but i should definetly read up on some basic styling.
