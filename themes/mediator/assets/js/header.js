@@ -23,3 +23,7 @@ function checkMenu()
 		main.css('padding-top', '0px');
 	}
 }
+
+$(document).ready(function(){
+	$("div.content").has(".highlight").addClass("content-highlight");
+});
