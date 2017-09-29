@@ -6,7 +6,3 @@
 // :hp-alt-title: My English Title
 
 video::92mIJG-89Bk[youtube]
-
-++++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/92mIJG-89Bk?rel=0" frameborder="0" allowfullscreen></iframe>
-++++
