@@ -28,7 +28,7 @@
     "title": "Blog",
     "description": "My Description",
     "logo": "/images/logo.png",
-    "cover": "/blog/images/cover_small.jpg",
+    "cover": "/images/covers/cover.png",
     "delay": "",
     "postsPerPage": "2",
     "googleAnalytics": "",
