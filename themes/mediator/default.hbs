@@ -67,11 +67,6 @@
 	{{! Everything else gets inserted here }}
 	{{{body}}}
 
-	{{^if post}}
-		{{! Previous/next page links - displayed on every page }}
-		{{pagination}}
-	{{/if}}
-
 	<footer class="site-footer">
 		<a class="subscribe" href="{{@blog.url}}/rss/"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
 		<div class="inner">
