@@ -181,7 +181,29 @@ body{
 .blog-header{height:70px;width:100%;margin:0 auto;position:relative;padding:0;border-bottom:1px solid #000;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .blog-header.is-fixed{position:fixed;top:0px;background-color:#fff}
 .blog-header .blog-logo{width:120px;height:120px;top:-60px;margin-right:-60px;position:absolute;right:50%;background-size:cover;border-radius:50%;z-index:99;text-indent:-9999px;border:3px solid #bbb;background-color:#000;-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.3);-moz-box-shadow:0 1px 1px rgba(0,0,0,0.3);box-shadow:0 1px 1px rgba(0,0,0,0.3)}
-.blog-header .blog-title{margin:0;padding:8px 0;position:absolute;width:-webkit-calc(50% - 111px);width:-moz-calc(50% - 111px);width:calc(50% - 111px);top:0px;left:0px;font-size:50px;font-weight:700;text-align:right;letter-spacing:-2px;outline:0;line-height:42px;word-break:break-word;color:#333}
+.blog-header .blog-title{
+	margin:0;
+	padding:8px 0;
+	position:absolute;
+	width:-webkit-calc(50% - 111px);
+	width:-moz-calc(50% - 111px);
+	width:calc(50% - 111px);
+	top:0px;
+	left:0px;
+	font-size:50px;
+	font-weight:700;
+	text-align:right;
+	letter-spacing:-2px;
+	outline:0;
+	line-height:42px;
+	word-break:break-word;
+	color:#333
+
+	width: 102px;
+	left: calc(50% - 225px);
+	padding-left: 10px;
+	padding-right: 10px;
+}
 .blog-header .blog-description{margin:0 0 20px;padding:0 32px;font-size:18px;line-height:1.5;color:#666;text-align:center;font-weight:400}
 .blog-header .custom-links{margin:0;text-align:left;color:#ccc;position:absolute;height:70px;width:-webkit-calc(50% - 99px);width:-moz-calc(50% - 99px);width:calc(50% - 99px);top:0px;right:0px}
 .blog-header .custom-links a{text-decoration:none;color:#999;display:inline-block;height:69px;line-height:65px;padding:0 10px}
