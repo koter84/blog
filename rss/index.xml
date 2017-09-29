@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[My Description]]></description><link>https://koter84.github.io/blog</link><image><url>/blog/images/cover_small.jpg</url><title>Blog</title><link>https://koter84.github.io/blog</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 29 Sep 2017 12:31:00 GMT</lastBuildDate><atom:link href="https://koter84.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Code Display]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[My Description]]></description><link>https://koter84.github.io/blog</link><image><url>/blog/images/cover_small.jpg</url><title>Blog</title><link>https://koter84.github.io/blog</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 29 Sep 2017 13:12:14 GMT</lastBuildDate><atom:link href="https://koter84.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Code Display]]></title><description><![CDATA[<div class="paragraph">
 <p>now lets try some codeblocks&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>hello.php</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -8,6 +11,25 @@ require('hubpress.php');
 
 echo "Hello World!\nThis is a HubPress Blog.";
 hubpress();</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>select.sql</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-SQL" data-lang="SQL">SELECT C.CategoryName, SUM( (OD.UnitPrice * OD.Quantity) * ( 1.0 - OD.Discount ))[Para] FROM Orders O
+    JOIN [Order Details] OD ON O.OrderID = OD.OrderID
+    JOIN Products P ON P.ProductID = OD.ProductID
+    JOIN Categories C ON P.CategoryID = C.CategoryID
+WHERE YEAR( O.OrderDate) = 1997
+GROUP BY C.CategoryName
+ORDER BY Para
+
+SELECT C.CategoryName, SUM( (OD.UnitPrice * OD.Quantity) * ( 1.0 - OD.Discount ))[Para] FROM Orders O JOIN [Order Details] OD ON O.OrderID = OD.OrderID JOIN Products P ON P.ProductID = OD.ProductID JOIN Categories C ON P.CategoryID = C.CategoryID
+WHERE YEAR( O.OrderDate) = 1997
+GROUP BY C.CategoryName
+ORDER BY Para</code></pre>
 </div>
 </div>]]></description><link>https://koter84.github.io/blog/2017/09/29/Code-Display.html</link><guid isPermaLink="true">https://koter84.github.io/blog/2017/09/29/Code-Display.html</guid><category><![CDATA[Test]]></category><dc:creator><![CDATA[Dennis Koot]]></dc:creator><pubDate>Fri, 29 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Number 5]]></title><description><![CDATA[<div class="paragraph">
 <p>and this is number five, this time with some added lorem ipsum&#8230;&#8203;</p>
