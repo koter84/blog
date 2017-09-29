@@ -330,38 +330,27 @@ pre>code{border:0;padding-right:0;padding-left:0}
 	pre,code{font-size:12px}
 }
 
-div.backbutton{
-	color: #333332;
-	display: inline-block;
-	position: absolute;
-	left: calc(50% - 500px);
-	top: 0px;
-	height: 45px;
-	padding-top: 24px;
-	padding-left: 45px;
-	padding-right: 45px;
-}
-div.previousbutton{
-	color: #333332;
-	display: inline-block;
-	position: absolute;
-	left: calc(50% - 500px);
-	top: 0px;
-	height: 45px;
-	padding-top: 24px;
-	padding-left: 45px;
-	padding-right: 45px;
-}
+div.backbutton,
+div.previousbutton,
 div.nextbutton{
 	color: #333332;
 	display: inline-block;
 	position: absolute;
-	right: calc(50% - 500px);
 	top: 0px;
 	height: 45px;
 	padding-top: 24px;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+div.backbutton{
+	left: calc(50% - 500px);
+}
+div.previousbutton{
+	left: calc(50% - 500px);
+}
+div.nextbutton{
+	right: calc(50% - 500px);
 }
 
 div.backbutton:hover,
