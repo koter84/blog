@@ -1,12 +1,13 @@
 = Code Display
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
-:hp-image: cover_small.jpg
+// :hp-image: cover_small.jpg
 :published_at: 2017-09-29
 :hp-tags: Test,
 // :hp-alt-title: My English Title
 
 now lets try some codeblocks...
 
+hello.php
 [source,PHP]
 ----
 <?php
@@ -14,4 +15,21 @@ require('hubpress.php');
 
 echo "Hello World!\nThis is a HubPress Blog.";
 hubpress();
+----
+
+select.sql
+[source,SQL]
+----
+SELECT C.CategoryName, SUM( (OD.UnitPrice * OD.Quantity) * ( 1.0 - OD.Discount ))[Para] FROM Orders O
+    JOIN [Order Details] OD ON O.OrderID = OD.OrderID
+    JOIN Products P ON P.ProductID = OD.ProductID
+    JOIN Categories C ON P.CategoryID = C.CategoryID
+WHERE YEAR( O.OrderDate) = 1997
+GROUP BY C.CategoryName
+ORDER BY Para
+
+SELECT C.CategoryName, SUM( (OD.UnitPrice * OD.Quantity) * ( 1.0 - OD.Discount ))[Para] FROM Orders O JOIN [Order Details] OD ON O.OrderID = OD.OrderID JOIN Products P ON P.ProductID = OD.ProductID JOIN Categories C ON P.CategoryID = C.CategoryID
+WHERE YEAR( O.OrderDate) = 1997
+GROUP BY C.CategoryName
+ORDER BY Para
 ----
