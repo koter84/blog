@@ -309,15 +309,21 @@ pre>code{border:0;padding-right:0;padding-left:0}
 }
 
 div.backbutton{
+	color: #333332;
+	display: inline-block;
+	position: relative;
 	left: calc(50% - 470px);
 	top: 0px;
-	position: relative;
-	display: inline-block;
 	height: 45px;
 	padding-top: 24px;
 	padding-left: 45px;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
 	padding-right: 45px;
+/*	border-left: 1px solid black;
+	border-right: 1px solid black;
+*/
 }
 
+div.backbutton :hover{
+	color: #FFFFFF;
+	background-color: #333332;
+}
