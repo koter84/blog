@@ -207,8 +207,8 @@ body{
 	padding: 40px 0;
 	border-bottom: 1px solid #C2C2C0;
 }
-.content article:first-child{padding-top:16px}
-/*.content article:last-child{border-bottom:0px;padding-bottom:16px}*/
+.content article:first-child{padding-top:20px}
+.content article:last-child{border-bottom:0px}
 .content article .post-title{letter-spacing:-0.02em;font-weight:700;font-style:normal;display:block;font-size:28px;line-height:1.1;margin:0 0}
 .content article .post-title a{text-decoration:none;color:#333332}
 .content article .post-title a:hover{text-decoration:none}
@@ -232,7 +232,6 @@ body{
 .site-footer a:hover{color:#333}
 .post .article-image{position:absolute;background-color:#000;top:0;left:0;right:0;bottom:0;overflow:hidden}
 .post .article-image .post-image-image{background-size:cover;position:absolute;top:0;left:0;right:0;bottom:0;text-indent:-9999px;padding-top:33%;z-index:1}
-
 .post .article-image .post-meta{position:absolute;bottom:80px;left:30%;right:30%;z-index:9;font-family:Open Sans,MundoSans,"Helvetica Neue",Arial,Helvetica,sans-serif;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 @media only screen and (max-width: 800px){
 	.post .article-image .post-meta{left:16px;right:16px}
