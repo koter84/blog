@@ -1,5 +1,5 @@
 .cf:after{content:"";display:table;clear:both}
-.highlight-fruity,.highlight,.highlight-monokai,.highlight-native,.highlight-vim,.highlight-zenburn,.highlight-default{margin-bottom:16px}
+.highlight-fruity,.highlight,.highlight-monokai,.highlight-native,.highlight-vim,.highlight-zenburn,.highlight-default{margin-top: 0px; margin-bottom: 20px;}
 main{display:block}
 #nav-menu{color:#999;display:none}
 nav ul{margin:0;padding:0}
@@ -137,7 +137,7 @@ body{
 .post-tag-articleimage{display:none}
 pre,code{font-size:15px;border-radius:3px}
 code{padding:1px 5px}
-pre{padding:8px 12px;overflow-x:auto}
+pre{overflow-x:auto}
 pre>code{border:0;padding-right:0;padding-left:0}
 @media only screen and (max-width: 600px){
 	#nav-menu{height:49px;line-height:45px;padding:0px 32px;cursor:pointer;text-align:right;display:block}
