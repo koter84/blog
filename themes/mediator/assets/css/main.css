@@ -307,3 +307,17 @@ pre>code{border:0;padding-right:0;padding-left:0}
 	.post .bottom-teaser .isRight{width:100%}
 	pre,code{font-size:12px}
 }
+
+div.backbutton{
+	left: calc(50% - 470px);
+	top: 0px;
+	position: relative;
+	display: inline-block;
+	height: 45px;
+	padding-top: 24px;
+	padding-left: 45px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding-right: 45px;
+}
+
