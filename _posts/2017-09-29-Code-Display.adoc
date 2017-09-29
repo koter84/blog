@@ -1,6 +1,6 @@
 = Code Display
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
-// :hp-image: cover_small.jpg
+:hp-image: covers/cover.png
 :published_at: 2017-09-29
 :hp-tags: Test,
 // :hp-alt-title: My English Title
