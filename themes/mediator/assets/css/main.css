@@ -318,12 +318,33 @@ div.backbutton{
 	padding-top: 24px;
 	padding-left: 45px;
 	padding-right: 45px;
-/*	border-left: 1px solid black;
-	border-right: 1px solid black;
-*/
+}
+div.previousbutton{
+	color: #333332;
+	display: inline-block;
+	position: relative;
+	left: calc(50% - 470px);
+	top: 0px;
+	height: 45px;
+	padding-top: 24px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+div.nextbutton{
+	color: #333332;
+	display: inline-block;
+	position: relative;
+	right: calc(50% - 470px);
+	top: 0px;
+	height: 45px;
+	padding-top: 24px;
+	padding-left: 45px;
+	padding-right: 45px;
 }
 
-div.backbutton:hover{
+div.backbutton:hover,
+div.previousbutton:hover,
+div.nextbutton:hover{
 	color: #FFFFFF;
 	background-color: #333332;
 }

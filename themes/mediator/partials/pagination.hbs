@@ -1,30 +1,14 @@
-		{{#if next}}
-		<a href="{{pageUrl next}}" class="post-list-pagination-item post-list-pagination-item-next" data-pjax>
-			<div class="backbutton">
-				<i class="fa fa-angle-double-left"></i>&nbsp;Older
-			</div>
-		</a>
-		{{/if}}
-
-		{{#if prev}}
-		<a href="{{pageUrl prev}}" class="post-list-pagination-item post-list-pagination-item-prev" data-pjax>
-			<div class="forwardbutton">
-				Newer&nbsp;<i class="fa fa-angle-double-right"></i>
-			</div>
-		</a>
-		{{/if}}
-
-
-<nav role="pagination" class="pagination">
-	{{#if next}}
-	<a href="{{pageUrl next}}" class="post-list-pagination-item post-list-pagination-item-next" data-pjax>
+{{#if next}}
+<a href="{{pageUrl next}}" class="post-list-pagination-item post-list-pagination-item-next" data-pjax>
+	<div class="previousbutton">
 		<i class="fa fa-angle-double-left"></i>&nbsp;Older
-	</a>
-	{{/if}}
-	<span class="post-list-pagination-item post-list-pagination-item-current">Page {{page}} of {{pages}}</span>
-	{{#if prev}}
-	<a href="{{pageUrl prev}}" class="post-list-pagination-item post-list-pagination-item-prev" data-pjax>
+	</div>
+</a>
+{{/if}}
+{{#if prev}}
+<a href="{{pageUrl prev}}" class="post-list-pagination-item post-list-pagination-item-prev" data-pjax>
+	<div class="nextbutton">
 		Newer&nbsp;<i class="fa fa-angle-double-right"></i>
-	</a>
-	{{/if}}
-</nav>
+	</div>
+</a>
+{{/if}}
