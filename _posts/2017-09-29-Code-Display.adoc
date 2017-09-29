@@ -1,0 +1,17 @@
+= Code Display
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+:hp-image: cover_small.jpg
+:published_at: 2017-09-29
+:hp-tags: Test,
+// :hp-alt-title: My English Title
+
+now lets try some codeblocks...
+
+[source,PHP]
+----
+<?php
+require('hubpress.php');
+
+echo "Hello World!\nThis is a HubPress Blog.";
+hubpress();
+----
