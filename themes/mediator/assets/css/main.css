@@ -323,7 +323,7 @@ div.backbutton{
 */
 }
 
-div.backbutton :hover{
+div.backbutton:hover{
 	color: #FFFFFF;
 	background-color: #333332;
 }
