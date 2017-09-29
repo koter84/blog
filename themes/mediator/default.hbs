@@ -42,22 +42,22 @@
 
 		{{#if post}}
 			<a href="#" onclick="window.history.back()"><div class="backbutton"><i class="fa fa-angle-double-left"></i>&nbsp;BACK</div></a>
-		{{/if}}
+		{{else}}
+			{{#if next}}
+			<a href="{{pageUrl next}}" class="post-list-pagination-item post-list-pagination-item-next" data-pjax>
+				<div class="backbutton">
+					<i class="fa fa-angle-double-left"></i>&nbsp;Older
+				</div>
+			</a>
+			{{/if}}
 
-		{{#if next}}
-		<a href="{{pageUrl next}}" class="post-list-pagination-item post-list-pagination-item-next" data-pjax>
-			<div class="backbutton">
-				<i class="fa fa-angle-double-left"></i>&nbsp;Older
-			</div>
-		</a>
-		{{/if}}
-
-		{{#if prev}}
-		<a href="{{pageUrl prev}}" class="post-list-pagination-item post-list-pagination-item-prev" data-pjax>
-			<div class="forwardbutton">
-				Newer&nbsp;<i class="fa fa-angle-double-right"></i>
-			</div>
-		</a>
+			{{#if prev}}
+			<a href="{{pageUrl prev}}" class="post-list-pagination-item post-list-pagination-item-prev" data-pjax>
+				<div class="forwardbutton">
+					Newer&nbsp;<i class="fa fa-angle-double-right"></i>
+				</div>
+			</a>
+			{{/if}}
 		{{/if}}
 
 		{{navigation}}
@@ -67,8 +67,10 @@
 	{{! Everything else gets inserted here }}
 	{{{body}}}
 
-	{{! Previous/next page links - displayed on every page }}
-	{{pagination}}
+	{{^if post}}
+		{{! Previous/next page links - displayed on every page }}
+		{{pagination}}
+	{{/if}}
 
 	<footer class="site-footer">
 		<a class="subscribe" href="{{@blog.url}}/rss/"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
