@@ -1,0 +1,8 @@
+= YouTube
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-image: /covers/cover.png
+:published_at: 2017-09-29
+:hp-tags: Test,
+// :hp-alt-title: My English Title
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/92mIJG-89Bk?rel=0" frameborder="0" allowfullscreen></iframe>
