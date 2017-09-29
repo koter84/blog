@@ -334,7 +334,7 @@ div.backbutton{
 	color: #333332;
 	display: inline-block;
 	position: absolute;
-	left: calc(50% - 470px);
+	left: calc(50% - 500px);
 	top: 0px;
 	height: 45px;
 	padding-top: 24px;
@@ -345,7 +345,7 @@ div.previousbutton{
 	color: #333332;
 	display: inline-block;
 	position: absolute;
-	left: calc(50% - 470px);
+	left: calc(50% - 500px);
 	top: 0px;
 	height: 45px;
 	padding-top: 24px;
@@ -356,7 +356,7 @@ div.nextbutton{
 	color: #333332;
 	display: inline-block;
 	position: absolute;
-	right: calc(50% - 470px);
+	right: calc(50% - 500px);
 	top: 0px;
 	height: 45px;
 	padding-top: 24px;
