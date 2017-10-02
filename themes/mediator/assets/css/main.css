@@ -158,7 +158,13 @@ pre>code{border:0;padding-right:0;padding-left:0}
 	.content article .post-title{font-size:24px}
 	.content article .post-excerpt{font-size:16px}
 	.content article .post-meta{font-size:12px}
-	.post-reading{display:none}
+	.post-reading{
+		/*display:none;*/
+		top: 7px;
+		right: 16px;
+		line-height: 20px;
+		font-size: 12px;
+	}
 	.post .article-image .post-title{font-size:32px}
 	.post .article-image .post-meta-text{font-size:12px}
 	.post .noarticleimage .post-title{font-size:32px}
