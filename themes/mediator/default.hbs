@@ -35,13 +35,25 @@
 	<!-- Build-Date: {{date format='YYYY-MM-DD HH:mm:ss'}} -->
 
 	<header class="teaserimage">
-		<div class="teaserimage-image {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+		<!-- ToDo - featured image, else cover image, else fallback to theme image -->
+		{{#if post.image}}
+		<div class="teaserimage-image" style="background-image: url({{@blog.url}}/{{post.image}})">
+			Featured Image
+		</div>
+		{{else if @blog.cover}}
+		<div class="teaserimage-image" style="background-image: url({{@blog.url}}/{{@blog.cover}})">
 			Teaser Image
 		</div>
+		{{else}}
+		<div class="teaserimage-image" style="background-image: url({{asset "images/covers/cover.png}})">
+			Teaser Image
+		</div>
+		{{/if}}
 	</header>
 
 	<header class="blog-header">
-		<a class="blog-logo" href="{{@blog.url}}">{{#if @blog.logo}}<img src="{{@blog.logo}}">{{/if}}</a>
+		<!-- ToDo - blog-logo fallback -->
+		<a class="blog-logo" href="{{@blog.url}}">{{#if @blog.logo}}<img src="{{@blog.url}}/{{@blog.logo}}">{{else}}<img src="{{asset "images/logo.png"}}">{{/if}}</a>
 		<a href="{{@blog.url}}"><h1 class="blog-title">{{@blog.title}}</h1></a>
 		{{#if post}}
 			<a href="#" onclick="window.history.back()"><div class="backbutton"><i class="fa fa-angle-double-left"></i>&nbsp;Back</div></a>
