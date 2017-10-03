@@ -27,8 +27,8 @@
   "site": {
     "title": "Blog",
     "description": "My Description",
-    "logo": "/images/logo.png",
-    "cover": "/images/covers/cover.png",
+    "logo": "logo.png",
+    "cover": "covers/cover.png",
     "delay": "",
     "postsPerPage": "2",
     "googleAnalytics": "",
