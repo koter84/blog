@@ -1,6 +1,6 @@
 = Number 5
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
-:hp-image: covers/cover.png
+:hp-image: /covers/cover.png
 :published_at: 2017-09-25
 :hp-tags: Test,
 // :hp-alt-title: My English Title
