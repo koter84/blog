@@ -10,10 +10,12 @@ $(window).scroll(function(){
 
 function checkMenu()
 {
+	console.log("check menu");
 	if( $(window).scrollTop() > offset )
 	{
 		if(!navigation.hasClass('is-fixed'))
 		{
+			console.log("add is-fixed");
 			navigation.addClass('is-fixed');
 			// ToDo - make this variable to height of header.blog-header
 			main.css('padding-top', $("header.blog-header").height()+1);
@@ -22,6 +24,7 @@ function checkMenu()
 	}
 	else if(navigation.hasClass('is-fixed'))
 	{
+		console.log("remove is-fixed");
 		navigation.removeClass('is-fixed');
 		main.css('padding-top', '0px');
 	}
